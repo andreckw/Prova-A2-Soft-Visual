@@ -20,4 +20,10 @@ app.MapGet("api/funcionario/listar", ([FromServices] AppDbContext Ctx) =>
 }
 );
 
+app.MapPost("api/folha/cadastrar", ([FromBody] Folha folha) =>
+{
+    
+});
+
+
 app.Run();
