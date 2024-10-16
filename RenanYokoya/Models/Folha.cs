@@ -7,9 +7,11 @@ public class Folha
     public int Quantidade { get; set; }
     public int Mes { get; set; }
     public int Ano { get; set; }
-    public int SalarioBruto { get; set; }
-    public int ImpostoIrrf { get; set; }
-    public int ImpostoInss { get; set; }
-    public int ImpostoFgts { get; set; }
-    public int SalarioLiquido { get; set; }
+    public float SalarioBruto { get; set; }
+    public float ImpostoIrrf { get; set; }
+    public float ImpostoInss { get; set; }
+    public float ImpostoFgts { get; set; }
+    public float SalarioLiquido { get; set; }
+    public Funcionario? Funcionario { get; set; }
+    public int FuncionarioId { get; set; }
 }
