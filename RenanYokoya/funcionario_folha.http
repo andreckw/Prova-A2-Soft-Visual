@@ -7,8 +7,8 @@ POST {{base_url}}/funcionario/cadastrar
 Content-Type: application/json
 
 {
-    "nome": "Seu nome",
-    "cpf" : "12345678912"
+    "nome": "Batata",
+    "cpf" : "14603674996"
 }
 
 ### Obtenção de todos os funcionários
@@ -22,14 +22,14 @@ Content-Type: application/json
 
 {
     "valor": 50,
-    "quantidade" : 1000,
-    "mes" : 10,
+    "quantidade" : 50,
+    "mes" : 12,
     "ano" : 2023,
-    "funcionarioId" : 1
+    "funcionarioId" : 6
 }
 
 ### Obtenção de todas as folhas
 GET {{base_url}}/folha/listar
 
 ### Obtenção de uma folha
-GET {{base_url}}/folha/buscar/12345678912/10/2023
+GET {{base_url}}/folha/buscar/14603674996/12/2023
